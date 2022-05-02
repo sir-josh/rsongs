@@ -1,10 +1,11 @@
 import '../App.css';
+import SongList from './SongList';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-         APP COMPONENT
+       <SongList />
       </header>
     </div>
   );
